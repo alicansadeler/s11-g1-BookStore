@@ -1,30 +1,28 @@
-import React, { useState } from 'react';
-import { Route } from 'react-router-dom';
-import { data } from './data';
+import React from "react";
+import { Route } from "react-router-dom";
 
-import Navigation from './components/Navigation';
-import Products from './components/Products';
-import ShoppingCart from './components/ShoppingCart';
+import Navigation from "./components/Navigation";
+import Products from "./components/Products";
+import ShoppingCart from "./components/ShoppingCart";
+import ProductContextProvider from "./contexts/ProductContext";
+import CartContextProvider from "./contexts/CartContext";
 
 function App() {
-  const [products, setProducts] = useState(data);
-  const [cart, setCart] = useState([]);
-
-  const addItem = (item) => {
-    // verilen itemi sepete ekle
-  };
-
   return (
     <div className="App">
-      <Navigation cart={cart} />
-      <main className="content">
-        <Route exact path="/">
-          <Products products={products} addItem={addItem} />
-        </Route>
-        <Route path="/cart">
-          <ShoppingCart cart={cart} />
-        </Route>
-      </main>
+      <CartContextProvider>
+        <ProductContextProvider>
+          <Navigation />
+          <main className="content">
+            <Route exact path="/">
+              <Products />
+            </Route>
+            <Route path="/cart">
+              <ShoppingCart />
+            </Route>
+          </main>
+        </ProductContextProvider>
+      </CartContextProvider>
     </div>
   );
 }
