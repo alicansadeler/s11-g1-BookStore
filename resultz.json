@@ -1,0 +1,296 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 20,
+  "numPassedTests": 8,
+  "numFailedTests": 12,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1720427402456,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe CartContext.Provider oluşturulmuş",
+          "status": "passed",
+          "title": "contexts klasöründe CartContext.Provider oluşturulmuş",
+          "duration": 56,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "status": "passed",
+          "title": "CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "duration": 8,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
+          "status": "passed",
+          "title": "CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
+          "duration": 7,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe CartContext Providera valuelar aktarılmış",
+          "status": "passed",
+          "title": "contexts klasöründe CartContext Providera valuelar aktarılmış",
+          "duration": 7,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe ProductContext.jsx dosyası oluşturulmuş",
+          "status": "passed",
+          "title": "contexts klasöründe ProductContext.jsx dosyası oluşturulmuş",
+          "duration": 15,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "status": "passed",
+          "title": "CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
+          "status": "passed",
+          "title": "CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
+          "duration": 6,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe CartContext Providera valuelar aktarılmış",
+          "status": "passed",
+          "title": "contexts klasöründe CartContext Providera valuelar aktarılmış",
+          "duration": 6,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde oluşturulan her 2 provider da kullanılmış",
+          "status": "failed",
+          "title": "App.jsxde oluşturulan her 2 provider da kullanılmış",
+          "duration": 12,
+          "failureMessages": [
+            "expected 'importReact,{useState}from\\'react\\';i…' to include 'Provider>'"
+          ],
+          "location": {
+            "line": 88,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde useStateler (import ve tanımlamalar) silinmiş",
+          "status": "failed",
+          "title": "App.jsxde useStateler (import ve tanımlamalar) silinmiş",
+          "duration": 4,
+          "failureMessages": [
+            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'useState'"
+          ],
+          "location": {
+            "line": 93,
+            "column": 23
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde Products componentine gönderilen proplar (products, addItem) silinmiş",
+          "status": "failed",
+          "title": "App.jsxde Products componentine gönderilen proplar (products, addItem) silinmiş",
+          "duration": 6,
+          "failureMessages": [
+            "expected 'importReact,{useState}from\\'react\\';i…' to include '<Products/>'"
+          ],
+          "location": {
+            "line": 97,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde Navigation componentine gönderilen prop (cart) silinmiş",
+          "status": "failed",
+          "title": "App.jsxde Navigation componentine gönderilen prop (cart) silinmiş",
+          "duration": 5,
+          "failureMessages": [
+            "expected 'importReact,{useState}from\\'react\\';i…' to include '<Navigation/>'"
+          ],
+          "location": {
+            "line": 101,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde ShoppingCart componentine gönderilen prop (cart) silinmiş",
+          "status": "failed",
+          "title": "App.jsxde ShoppingCart componentine gönderilen prop (cart) silinmiş",
+          "duration": 4,
+          "failureMessages": [
+            "expected 'importReact,{useState}from\\'react\\';i…' to include '<ShoppingCart/>'"
+          ],
+          "location": {
+            "line": 105,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contextAPI eklendikten sonra ana sayfa 4 kitabı da geririyor.",
+          "status": "failed",
+          "title": "contextAPI eklendikten sonra ana sayfa 4 kitabı da geririyor.",
+          "duration": 11,
+          "failureMessages": [
+            "expected 'importReact,{useState}from\\'react\\';i…' to include 'Provider>'"
+          ],
+          "location": {
+            "line": 110,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " İlk kitapta Add to cart butonuna tıklanınca sağ üst cartta 1 yazıyor",
+          "status": "failed",
+          "title": "İlk kitapta Add to cart butonuna tıklanınca sağ üst cartta 1 yazıyor",
+          "duration": 1069,
+          "failureMessages": [
+            "Unable to find an element with the text: 1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m0\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<section\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-jTQCzO egAymn\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"The Art Of War book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/41FBMkY3cgL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mThe Art Of War\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m10.11\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Civilization and Its Discontents book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/51Jj12iMZnL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mCivilization and Its Discontents\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m14.29\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Influence: The Psychology of Persuasion book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/512-B-1yXuL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mInfluence: The Psychology of Persuasion\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m10.98\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Grokking Algorithms book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/61uUPXbhMxL._SX397_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mGrokking Algorithms\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m40\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</section>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m0\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<section\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-jTQCzO egAymn\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"The Art Of War book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/41FBMkY3cgL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mThe Art Of War\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m10.11\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Civilization and Its Discontents book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/51Jj12iMZnL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mCivilization and Its Discontents\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m14.29\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Influence: The Psychology of Persuasion book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/512-B-1yXuL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mInfluence: The Psychology of Persuasion\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m10.98\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Grokking Algorithms book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/61uUPXbhMxL._SX397_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mGrokking Algorithms\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m40\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</section>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " İkinci kitapta Add to cart butonuna tıklanınca sağ üst cartta 2 yazıyor",
+          "status": "failed",
+          "title": "İkinci kitapta Add to cart butonuna tıklanınca sağ üst cartta 2 yazıyor",
+          "duration": 1037,
+          "failureMessages": [
+            "Unable to find an element with the text: 2. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m0\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<section\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-jTQCzO egAymn\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"The Art Of War book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/41FBMkY3cgL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mThe Art Of War\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m10.11\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Civilization and Its Discontents book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/51Jj12iMZnL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mCivilization and Its Discontents\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m14.29\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Influence: The Psychology of Persuasion book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/512-B-1yXuL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mInfluence: The Psychology of Persuasion\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m10.98\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Grokking Algorithms book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/61uUPXbhMxL._SX397_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mGrokking Algorithms\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m40\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</section>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m0\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<section\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-jTQCzO egAymn\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"The Art Of War book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/41FBMkY3cgL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mThe Art Of War\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m10.11\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Civilization and Its Discontents book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/51Jj12iMZnL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mCivilization and Its Discontents\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m14.29\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Influence: The Psychology of Persuasion book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/512-B-1yXuL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mInfluence: The Psychology of Persuasion\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m10.98\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-guDLey BDkUp\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Grokking Algorithms book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/61uUPXbhMxL._SX397_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h1\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"title\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mGrokking Algorithms\u001b[0m\n              \u001b[36m</h1>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"footer\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"price\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m$\u001b[0m\n                  \u001b[0m40\u001b[0m\n                \u001b[36m</p>\u001b[39m\n                \u001b[36m<button>\u001b[39m\n                  \u001b[0mAdd to cart\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</section>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " İlk kitapta Add to cart butonuna tıklanınca sepete ekliyor",
+          "status": "failed",
+          "title": "İlk kitapta Add to cart butonuna tıklanınca sepete ekliyor",
+          "duration": 1079,
+          "failureMessages": [
+            "Unable to find an element with the text: The Art Of War. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m0\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eDLKkx kvXUPP\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<p>\u001b[39m\n              \u001b[0mTotal: $\u001b[0m\n              \u001b[0m0.00\u001b[0m\n            \u001b[36m</p>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mCheckout\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m0\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eDLKkx kvXUPP\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<p>\u001b[39m\n              \u001b[0mTotal: $\u001b[0m\n              \u001b[0m0.00\u001b[0m\n            \u001b[36m</p>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mCheckout\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Cart sayfasında Remove from cart kitabı sepetten çıkarıyor",
+          "status": "failed",
+          "title": "Cart sayfasında Remove from cart kitabı sepetten çıkarıyor",
+          "duration": 30,
+          "failureMessages": [
+            "Unable to find an element with the text: Remove from cart. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m0\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eDLKkx kvXUPP\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<p>\u001b[39m\n              \u001b[0mTotal: $\u001b[0m\n              \u001b[0m0.00\u001b[0m\n            \u001b[36m</p>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mCheckout\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 37,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Cart bilgisi localStoragea s11g1 keyi ile saklanıyor",
+          "status": "failed",
+          "title": "Cart bilgisi localStoragea s11g1 keyi ile saklanıyor",
+          "duration": 3,
+          "failureMessages": [
+            "expected null not to be null // Object.is equality"
+          ],
+          "location": {
+            "line": 142,
+            "column": 20
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Cart bilgisi localStorageda güncelleniyor",
+          "status": "failed",
+          "title": "Cart bilgisi localStorageda güncelleniyor",
+          "duration": 90,
+          "failureMessages": [
+            "expected null not to be null // Object.is equality"
+          ],
+          "location": {
+            "line": 152,
+            "column": 20
+          }
+        }
+      ],
+      "startTime": 1720427443372,
+      "endTime": 1720427446833,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-3p2zcv/src/__tests__/index.test.jsx"
+    }
+  ]
+}
